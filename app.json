@@ -1,9 +1,9 @@
 {
-  "name": "gofineces",
-  "displayName": "gofineces",
+  "name": "gofinaces",
+  "displayName": "gofinaces",
   "expo": {
-    "name": "gofineces",
-    "slug": "gofineces",
+    "name": "gofinaces",
+    "slug": "gofinaces",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
