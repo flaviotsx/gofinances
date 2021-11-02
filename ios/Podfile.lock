@@ -23,9 +23,11 @@ PODS:
   - EXPermissions (12.0.1):
     - UMCore
     - UMPermissionsInterface
-  - EXSplashScreen (0.10.3):
+  - ExpoModulesCore (0.4.4):
     - React-Core
-    - UMCore
+  - EXSplashScreen (0.13.4):
+    - ExpoModulesCore
+    - React-Core
   - EXStructuredHeaders (1.0.1):
     - UMCore
   - EXUpdates (0.5.5):
@@ -343,7 +345,8 @@ DEPENDENCIES:
   - EXImageLoader (from `../node_modules/expo-image-loader/ios`)
   - EXKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
-  - EXSplashScreen (from `../node_modules/expo-splash-screen/ios`)
+  - ExpoModulesCore (from `../node_modules/expo-modules-core/ios`)
+  - EXSplashScreen (from `../node_modules/expo-app-loading/node_modules/expo-splash-screen/ios`)
   - EXStructuredHeaders (from `../node_modules/expo-structured-headers/ios`)
   - EXUpdates (from `../node_modules/expo-updates/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -413,8 +416,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-keep-awake/ios"
   EXPermissions:
     :path: "../node_modules/expo-permissions/ios"
+  ExpoModulesCore:
+    :path: "../node_modules/expo-modules-core/ios"
   EXSplashScreen:
-    :path: "../node_modules/expo-splash-screen/ios"
+    :path: "../node_modules/expo-app-loading/node_modules/expo-splash-screen/ios"
   EXStructuredHeaders:
     :path: "../node_modules/expo-structured-headers/ios"
   EXUpdates:
@@ -513,7 +518,8 @@ SPEC CHECKSUMS:
   EXImageLoader: da941c9399e01ec28f2d5b270bdd21f2c8ca596c
   EXKeepAwake: d4e4a3ed8c1c4fd940dd62fc5a8be2a190371fd4
   EXPermissions: 8f8c1c05580c4e02d4ee2c8dd74bfe173ff6a723
-  EXSplashScreen: 6d5b4274537d2b9f343a9ec2347dbb61f3d40ab7
+  ExpoModulesCore: 47b403a33ad73770c49d7559615b3ea121a36116
+  EXSplashScreen: 68390ddb65a5def66ce8cf46a1e14a9b33cdac70
   EXStructuredHeaders: be834496a4d9fd0069cd12ec1cc57b31c6d3b256
   EXUpdates: efe0e8c514dcff06a8fd0b63be6019a6365fb9c7
   FBLazyVector: 3bb422f41b18121b71783a905c10e58606f7dc3e
@@ -558,6 +564,6 @@ SPEC CHECKSUMS:
   UMTaskManagerInterface: 203c11259d2699b5b3a4eda4adbc466f5cb5c561
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: b24b28d2e40beeed7a21cafa6c3001703a02fc02
+PODFILE CHECKSUM: feb6a8c99d30ac7aa5126110451a10b343f9251a
 
 COCOAPODS: 1.11.2
